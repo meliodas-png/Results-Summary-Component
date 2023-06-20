@@ -36,7 +36,7 @@ main {
     padding: 1.5rem;
     z-index: 2;
     position: relative;
-    left: 10rem;   
+    left: 5rem;   
 }
 
 .scores {
@@ -46,20 +46,26 @@ main {
     color: black;
     padding: 1rem;
     padding-left: 11rem;
-    border: solid 2px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
+    position: relative;
+    left: -5rem;
+    box-shadow: 5px 10px 10px hsl(221, 100%, 96%);
 }
 
 .sum {
     height: 2rem;
     width: 100%;
-    margin: 5px;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 7.5px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     background-color: aqua;
+
 }
 
 #value {
@@ -79,7 +85,7 @@ p {
 
 h3{
     position: absolute;
-    top: 11rem;
+    top: 1rem;
 }
 
 h4 {
@@ -112,4 +118,30 @@ button:hover{
 img{
     float: left;
     margin: 3px;
+    margin-right: 5px;
+    margin-top: -2.5px;
+}
+
+#reaction {
+    background-color: hsl(0, 100%, 67%, 7.5%);
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    background-color: hsl(39, 100%, 56%, 7.5%);
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    background-color: hsl(166, 100%, 37%, 7.5%);
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color: hsl(234, 85%, 45%, 7.5%);
+    color: hsl(234, 85%, 45%);
+}
+
+.score {
+    color: hsl(0, 0%, 0%, 65%);
 }
